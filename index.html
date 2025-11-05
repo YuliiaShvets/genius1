@@ -9,14 +9,14 @@
   <body>
     <header>
       <nav>
-         <a href="#">
+         <a href="/">
             <img src="./images/logo.svg" alt="Логотип сучасної пекарні"/>
          </a>
         <ul>
-            <li><a href="#">Наші традиції></a></li>
-            <li><a href="#">Шеф-кухарі</a></li>
-            <li><a href="#">Формати</a></li>
-            <li><a href="#">Контакти</a></li>
+            <li><a href="#tradition-section">Наші традиції></a></li>
+            <li><a href="#chefs-section">Шеф-кухарі</a></li>
+            <li><a href="#formats-section">Формати</a></li>
+            <li><a href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
       <button type="button">Замовити дзвінок</button>
@@ -25,7 +25,7 @@
       <section>
         <h1><span>Сучасна</span> пекарня</h1>
       </section>
-      <section>
+      <section id="tradition-section">
         <ul>
             <li>Великий попит на ринку </li>
             <li>Доступні за бюджетом формати</li>
@@ -43,7 +43,7 @@
         </p>
         <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони з посмішкою"/>
       </section>
-      <section>
+      <section id="chefs-section">
         <h2>Наші найкращі <span>шеф -кухарі</span></h2>
         <ul>
             <li>
@@ -51,7 +51,7 @@
         <img src="./images/baker-nastya.jpg" alt="Жінка пекар із круасаном"/>
           <h3>Настя</h3>
           <p>Привіт, я Настя!</p>
-          <у>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
+          <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
           <p>Я випічу для вас найсмачніщі вироби!</p>
         </article>
             </li>
@@ -67,7 +67,7 @@
             </li>
         </ul>
       </section>
-      <section>
+      <section id="formats-section">
         <h2>Формати</h2>
         <ul>
             <li>
@@ -99,11 +99,18 @@
             </li>
         </ul>
       </section>
-      <section>
+      <section id="contact-section">
         <h2>Приєднуйся до мережі пекарень</h2>
         <p>Заповни форму, щоб ми звʼязались з тобою!</p>
         <button type="button">Замовити дзвінок</button>
         <p>Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1891042964166!2d30.498826275528558!3d50.456203186950866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce671d300001%3A0x6e8b3c3f13c5f5cb!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCAyM2EsINCa0LjQtdCyLCDQo9C60YDQsNC40L3QsCwgMDQwNTM!5e0!3m2!1sru!2ses!4v1762375424811!5m2!1sru!2ses" 
+                width="603" 
+                height="595" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </section>
     </main>
     <footer>
@@ -127,8 +134,8 @@
                 <li><a href="#">facebook icon</a></li>
                 <li><a href="#">instagram icon</a></li>
             </ul>
-            <li><a href="#" target="_blank">Політика конфіденційності</a></li>
-            <p>© 2022 Дані захищені</p>
+            <a href="#" target="_blank">Політика конфіденційності</a>
+            <p>&copy;2022 Дані захищені</p>
         </address>
         
     </footer>
