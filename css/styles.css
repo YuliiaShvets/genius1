@@ -1,0 +1,66 @@
+.header-section { 
+   height: 59px;
+   display: flex;
+   gap: 152px;
+}
+
+.header-nav {
+display: flex;
+gap: 152px;
+}
+
+.header-list {
+align-items: center;
+justify-content: space-between;
+display: flex;
+width: 594px;
+padding-left: 0;
+color: #FAF4EA;
+}
+
+.header-list-item {
+color: #FAF4EA;
+}
+
+.header-list-item:active {
+color: #819B57;
+}
+
+.main-title {
+   color: #FAF4EA;
+}
+
+.first-world-title {
+    color: #819B57;
+}
+
+ul {
+    list-style-type: none;
+}
+.button {
+    color: #FAF4EA;
+    background-color: #819B57;
+    border: 2px solid #819B57;
+    border-radius: 8px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+}
+
+.button:hover {
+    color: #465929;
+    background-color: transparent;
+}
+
+.title-chef {
+    color: #465929;
+}
+
+.new-format-shop  {
+    color: #819B57;
+}
+
+.new-format-tradions {
+    color: #819B57;
+}
