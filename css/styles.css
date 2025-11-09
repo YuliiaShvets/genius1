@@ -18,11 +18,11 @@ padding-left: 0;
 color: #FAF4EA;
 }
 
-.header-list-item {
+.link {
 color: #FAF4EA;
 }
 
-.header-list-item:active {
+.link:hover {
 color: #819B57;
 }
 
@@ -51,6 +51,17 @@ padding-left: 32px;
 .button:hover {
     color: #465929;
     background-color: transparent;
+}
+
+.advantages {
+    color: #FAF4EA;
+    background-color: #819B57;
+    display: flex;
+    gap: 160px;
+padding-top: 16px;
+padding-right: 99px;
+padding-bottom: 16px;
+padding-left: 99px;
 }
 
 .title-chef {
